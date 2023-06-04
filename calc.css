@@ -39,14 +39,14 @@ overflow: hidden !important;
   width: 100px;
   height: 100px;
   filter: blur(2px);
-  background-image: url("/images/circle.svg");
+  background-image: url("../images/circle.svg");
   background-size: cover;
   z-index: -1;
   animation: col 6s linear infinite;
 }
 
 .image {
-  background-image: url("/images/blue.svg");
+  background-image: url("../images/blue.svg");
   top: 70%;
   left: 50%;
   width: 300px;
@@ -55,7 +55,7 @@ overflow: hidden !important;
 }
 
 .imager {
-  background-image: url("/images/redcir.svg");
+  background-image: url("../images/redcir.svg");
   top: 10%;
   left: 60%;
   width: 400px;
