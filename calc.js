@@ -74,7 +74,7 @@ let main = (val) => {
   //if this true this will delete the 1 lenth of innnerhtml  but  when the inner html not includes "INVALID" or "SYNTAX"
   // other wise it will,if syn or invalid is there it will make inner html as null
   else if (val == "del") {
-    if (allin.includes("INVALID") || allin.includes("SYNTAX")) {
+    if (allin.includes("INVALID") || allin.includes("SYNTAX")) || allin.includes("infin") {
       ele.innerHTML = "";
     }
     //here the validation of -1 using slice or u use substring instead
